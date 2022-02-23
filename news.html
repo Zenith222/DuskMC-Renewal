@@ -1,0 +1,69 @@
+<html>
+
+<head>
+
+  <script src="assets/svg-inject.min.js"></script>
+  
+</head>
+
+<style>
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+#content {
+	position: absolute;
+	top: 120px;
+	text-align: center;
+	justify-content: center;
+	width: 450px;
+	height: 400px;
+	font-family: Minecraft;
+	
+	padding: 10px;
+	border: 2px solid purple;
+}
+
+#links {
+	position: absolute;
+}
+
+@font-face {
+	font-family: 'Minecraft';
+	src: url('assets/Minecraft.woff2') format('woff2'), url('assets/Minecraft.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+  background-image: url("assets/deepslate_bricks.png");
+  background-repeat: repeat;
+}
+
+#FrontTab--inject-1 {
+  transform: translate(84px, 0px)
+}
+
+</style>
+
+<body>
+	<div class="container">
+		<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
+		<div id="links">
+		<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
+		</div>
+		
+		<div id="content">
+			<main class="dusk-page-body">
+            <div class="dusk-page-content">
+                <h1>News</h1>
+                <p>Nothing...no news?</p>
+            </div>
+        </main>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg width="102" height="20" viewBox="0 0 102 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Join-Button">
+        <linearGradient id="linearGradient1" x1="50.9952" y1="-5.423903" x2="50.9952" y2="29.290383" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#9c08ec" stop-opacity="1"/>
+            <stop offset="1" stop-color="#8c16cc" stop-opacity="1"/>
+        </linearGradient>
+        <path id="Base" fill="url(#linearGradient1)" fill-rule="evenodd" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M 1 19 L 101 19 L 101 1 L 1 1 Z"/>
+        <path id="Highlight-1" fill="#ffffff" fill-opacity="0.320263" fill-rule="evenodd" stroke="none" d="M 2 3 L 100 3 L 100 2 L 2 2 Z"/>
+        <path id="Highlight-2" fill="#ffffff" fill-opacity="0.320263" fill-rule="evenodd" stroke="none" d="M 2 18 L 3 18 L 3 2 L 2 2 Z"/>
+        <path id="Shadow-1" fill="#000000" fill-opacity="0.320263" fill-rule="evenodd" stroke="none" d="M 2 18 L 100 18 L 100 17 L 2 17 Z"/>
+        <path id="Shadow-2" fill="#000000" fill-opacity="0.320263" fill-rule="evenodd" stroke="none" d="M 99 18 L 100 18 L 100 2 L 99 2 Z"/>
+    </g>
+</svg>
