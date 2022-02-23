@@ -1,30 +1,30 @@
 <svg width="528" height="84" viewBox="0 0 528 84" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="ButtonTargets">
-        <a xlink:href="/UIBaseTest.html">
+        <a xlink:href="https://www.patreon.com/DuskMC">
         <g id="DonateButtonGroup">
             <path id="DonateButton" fill="#00a1fe" fill-opacity="0.000" fill-rule="evenodd" stroke="none" d="M 444 84 L 528 84 L 528 0 L 444 0 Z"/>
             <image id="DonateImage" x="471" y="26" width="30" height="36" xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAB4AAAAkCAYAAACe0YppAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAHqADAAQAAAABAAAAJAAAAAAh0JciAAABV0lEQVRYCe2XMUoDURCGJ5ILCMpiaa+NTQ5hFRRrxULBO1iIhRcQ0uQAQcEjpLaxMBrQJoKFPiJYWVgYDQj//C9kYBcJfxFTfW/eJMN8O7t5W7Myn237LpOGnEurgQNYCOIzD8sK18PWSO/jxRBpBx8tMEP/9QnLZG2/NIF2WceywrnqQO/96BkaI0g319gqzvbB6YG093zaZR3LCtftD3rhcwIy7VekvenaZR3LCmdTzdN7ODifEPi7bK0eTY13rePx4ReYtSM4BlnHssKZalZRhnufg+lpL+8eX15yJpJ1/F+YrsJsUaa68lSHkxwIKjYa2El2B5Z1LCtcWTVcjaE76vvy9s15ZdE5IFnHssL5qwadRmxnzSXR35zxc9gzzEjvyd4pdo4bW2Cb68NertqlGB8Cy2gvdjfx7dRsg1mvB+fxBBKrZi/rFV/MaXr5Z5hl97Gs8A+atFaSDGJ4BAAAAABJRU5ErkJggg=="/>
         </g>
         </a>
-        <a xlink:href="/News.html">
+        <a xlink:href="/news.html">
         <g id="NewsButtonGroup">
             <path id="NewsButton" fill="#00a1fe" fill-opacity="0.000" fill-rule="evenodd" stroke="none" d="M 252 84 L 336 84 L 336 0 L 252 0 Z"/>
             <image id="NewsImage" x="270" y="26" width="48" height="42" xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADAAAAAqCAYAAAD1T9h6AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAMKADAAQAAAABAAAAKgAAAADxZ+MvAAACq0lEQVRYCdWXP2hTURTGX7TVqqihCVaUECiKc3SqLm4dUqeUYlWSwUXpZHBQ3ATBoUQcqi4OCUahuGkG3bUYqJlFGwjRYksiBRGqxT/PIb9+De+mCV16uvR3zz3vvZz3fTnnJuT1+FetVv+2Lmk0Gi306vU6nEqlQq3FSHgn+a1Y+/+5ld/kt+9ttt6xWcJ23zdfQF83b7hcLgfaIBqNcrmy2ubY4H5yDu7dAw/s6oeji0vc/8XXnz3ZybwC5gvoykJo3Qb5fJ5IJpOBi+8/wg/Gz8IKq7/WWJ44MgR7Xm92Mq+A+QKc33jtJNcfzyJxLBaDFUqlEstkMgnrgJu+PEH8zPBRWO2k3enD4hI5ru5kXgHzBYTUKujlgw6gofABtkZu3YMTiQRcqVRgjRP04eLJ47qEt2In8wqYLyB07vBuziFhOauobVxdYuLRc2ygZ6FcLkc8m83COtTeVL8QV3DZaf7zMmnRgfX5a14B8wWsa+EL9Onbd2RScNlp9so4aWongj7orzbtYN6da6SpRV3WGk6eJ79YLDKAzStgvoANFkIjHy7MPGP5dGoSdtlJu5B2HldHmnZ0oczdGZ4Vj8fhWq0G+xaCzStgvoC+d6t/kGNUfoCrfN3YqZuzEA/ywWUVzVHb5G9MsaXD17wC5gtgIPzX51C4n3PR6OA+JLv58i2ssmp30iF4//Uc+YVCAU6n03Cz2YT1nmoVEnxY8ILfdXBUr9zmbL6ADRbSl92rndQG2sEikQi3VTvNP3lIXI/H2hVJ8GF5ZS3ws5pXwHwBzrOQSvbK+0F38sZOo6x2J4I+qJ1uT46xderSVVi7yoIMU30uyR3AvALmCwj8ZndQzDnsdJBtpat0enbQnnkFzBfQs4VURh12Gld2dRW91pWj93GxeQXMF/APBWfoE0Mcpw4AAAAASUVORK5CYII="/>
         </g>
         </a>
-        <a xlink:href="/Worlds.html">
+        <a xlink:href="/worlds.html">
         <g id="WorldsButtonGroup">
             <path id="WorldsButton" fill="#00a1fe" fill-opacity="0.000" fill-rule="evenodd" stroke="none" d="M 168 84 L 252 84 L 252 0 L 168 0 Z"/>
             <image id="WorldsImage" x="189" y="26" width="42" height="36" xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKqADAAQAAAABAAAAJAAAAABrKhtqAAABx0lEQVRYCdVYMWrDQBCMgvEPjNPEBAQqVKnxG+JGYPATQmoH9A5BXDh/kFo3zhMiYVBlsEHYOBgiAia1mkTVMDK3ikyarKrZvVsxzOzd6WRdXfgMh8PvC0uM09M0tYwDQvJayP+7tBqiHUk6yeIgCIwl2+0W+TzPgW3bBuZ8lTS2kNQSahRVQ7S28m76fdhxPxrBMrZvsVggX5YlcBvQ7XYxzXVdYAavyyXCj6IAPzWKqiFqSXav12tYcKnFKGwJpJbgNlCjqBqiNetvBwOY9Re7q8MC76k2cOA2gNvg/XBAiRpF1RAVz3po3gCy49E8SvnH8RhzPosCeE+2ItkA1CiqhmjNev6EC8MQRiS7HTCDFZ3dD70ehu5o99i3WPW80n3fx3te5nNgNYqqIVqznr/SkySB7Aw8z+PQiNus6MlkYqxdCa2iRlE1RGvWsxebzYZD4CzLgBlEUYRQao84jjGHL3pfpxPyElCjqBqiHb5AVRssLneO48AFtlJqCd4xUHgG2O6zIYRvtNswNzWKqiFaW/Us9dN0ijaALxV4ns0Qcksg2RLwxY1LmAPn1Siqhih+mbDMTZj/AzTN+21MsliqU6OoGqI/7+6Jca6C4MgAAAAASUVORK5CYII="/>
         </g>
         </a>
-        <a xlink:href="/Info.html">
+        <a xlink:href="/info.html">
         <g id="InfoButtonGroup">
             <path id="InfoButton" fill="#00a1fe" fill-opacity="0.000" fill-rule="evenodd" stroke="none" d="M 84 84 L 168 84 L 168 0 L 84 0 Z"/>
             <image id="InfoImage" x="102" y="26" width="48" height="42" xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADAAAAAqCAYAAAD1T9h6AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAMKADAAQAAAABAAAAKgAAAADxZ+MvAAAByklEQVRYCdWXMUvDUBSFk1p10EqloFtDJmcXJ/+E4OIPcHPSwT/g0kF3cQ46+DucBEFwcJBS3JSirYNgA/rqcDyRXvqeicPpdPJye5PT8/XdJI7++bOe1j+nXeKmm8fTaqzzNeuEyrq8gXpVv7SFStpYxCVa7Xnol2EOHUUDYBaKk3wC8gaC//2hqBAnXvL6ro86H5zkE5A3YCJUFSrd+zcgka41oH2ED07yCcgbiH1QqTVnkPjy0t9nXyhOPOweHge4B96d5BOQN1BAiJ9bfLAJRQIMOBH6Xa7v5x9oJZ+AvIECQsjFCcaJH4O5hjVHHDqwrD68vrqxhcMsyzCA5ROQN2BOpd3OOSI7O9yBtnAKxYaRQ3Mntg9OcJgkCXSv14N2CEHLJyBvIF5pzuKFerO9gGiOLq6gOT7GKXTYoaETFipcw9c97ezhVKs+By2fgLwBDIRxJmVwGr7/PJ8gXyeqQuX2ecRtoeUTkDdQQAi5OBGKE+8YPIC4J9dYu4qFytPraOK9yicgb2BiLBz7WJfB6fJ4/3e77+NQVCY2cYvyCcgb8EKI47NwsgZZVajwPbCWT0DeQDBCHB/jxOusrQHENWW0fALyBr4ABoej+ct8LcEAAAAASUVORK5CYII="/>
         </g>
         </a>
-        <a xlink:href="/Index.html">
+        <a xlink:href="/index.html">
         <g id="HomeButtonGroup">
             <path id="HomeButton" fill="#00a1fe" fill-opacity="0.000" fill-rule="evenodd" stroke="none" d="M 0 84 L 84 84 L 84 0 L 0 0 Z"/>
             <image id="HomeImage" x="27" y="26" width="30" height="42" xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAB4AAAAqCAYAAACk2+sZAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAHqADAAQAAAABAAAAKgAAAACe4ClDAAAA8ElEQVRYCWM0UuT/zwAF8sLcMCbNaSaa24DDggGzmAWHgxgevv2KSwoujhw1pKofMB8PmMUstn4J8KB7dHQ1nI3MEOJmR+YSZBOjfsB8PGAWsxzetAAedMipFC5II8aA+XjUYhrFKKaxo0GNGSY0EhmwoGbMz8+Ht0BwldWkenrdMju4lrM7V8DZrQul4OwB8/GAWcyIq7FHaouCVPUD5uMBsxhnYw+e/IAMYloUpKofMB+PWowcVTRlD1hQE9WupoXXB8zHA2bxaLuaFukIq5k4y2pSuzOkqh+wxDVgFqMENTGtCKwRRobggPl4wCwGAAZ9KCehcXwTAAAAAElFTkSuQmCC"/>
