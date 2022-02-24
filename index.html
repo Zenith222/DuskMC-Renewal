@@ -4,6 +4,19 @@
 
   <script src="assets/svg-inject.min.js"></script>
   
+  <script>
+
+	  function copyServer() {
+	
+	  navigator.clipboard.writeText("mc.dusk.pro");
+	
+	  alert("Server IP Copied to Clipboard");
+	}
+  
+  </script>
+  
+  
+  
 </head>
 
 <style>
@@ -21,9 +34,11 @@
 	width: 450px;
 	height: 400px;
 	font-family: Minecraft;
-	
 	padding: 10px;
-	border: 2px solid purple;
+}
+
+p {
+  font-size: 1.3em;
 }
 
 #links {
@@ -55,20 +70,18 @@ body {
 		<div id="links">
 		<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
 		</div>
-		
-		<div id="content">
-		<img src="assets/Logo.svg" width="444" height="102"/>
-			<main class="dusk-page-body">
-            <div class="dusk-page-content">
-            	
-                <h1>Welcome to DuskMC</h1>
-                <p>You've stumbled upon a friendly survival Minecraft server. Here you can build, explore, make friends, and work together. What will you create? 
-
-Let's find out.</p>
-		<img src="assets/JoinButton.svg" width="306" height="60"/>
-            </div>
-        </main>
-		</div>
+			<div id="content">
+				<img style = "pointer-events: none" src="assets/Logo.svg" width="444" height="102"/>
+				<main class="dusk-page-body">
+	            <div class="dusk-page-content">
+	                <h1>Welcome to DuskMC</h1>
+	                <p>You've stumbled upon a friendly survival Minecraft server. Here you can build, explore, make friends, and work together. What will you create?</p>
+	                
+	                <p>Let's find out.</p>
+					<img onclick="copyServer();" style= "margin-top: 30px;cursor:pointer;"src="assets/JoinButton.svg" width="306" height="60"/>
+	            </div>
+		        </main>
+			</div>
 	</div>
 </body>
 </html>
