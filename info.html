@@ -25,10 +25,15 @@
 	padding: 10px;
 	justify-content: center;
 	text-align: left;
-	text-indent: 10px;
 	font-family: Minecraft;
 	overflow: auto;
 <!-- 	border: 2px solid purple; -->
+}
+
+input{
+  padding:5px;
+  font-size:16px;
+  font-family:Minecraft;   
 }
 
 #links {
@@ -64,18 +69,24 @@ body {
 			<main class="dusk-page-body">
             <div class="dusk-page-content">
                 <h1>Info</h1>
-                <h3>About this website.</h3>
-            	<p>This website was designed & coded by Pixol22.</p>
-                <h3>Why Vanilla?</h2>
-                <p>Some servers try to grab your attention with the fanciest plug-ins, best builds, and flashiest marketing material. DuskMC, however, can be summed up in one word. Have you guessed what it is? <br><br>
-
-				    Without community, a Minecraft Server fails. When you have no connection to the way something is built, the way you are spawned, or the people you're playing with, the experience falls apart. You've most likely experienced a feeling of emptiness after being left alone in the wilderness. Off to make your own house, sometimes permanently separated from actual players. <br> <br>
-				
-				    DuskMC has a simple goal, create an intertwined, active, talented, and fun community that everyone can have a part in. On this server, everything from the spawn to shops are player created. The goal is to bring players together so they can all reach the full potential of the infinite block-based sandbox we know and love as Minecraft. There is no /wilderness, there is no fancy player spawn, needlessly complicated server connections, and tacky NPC economy plugins. When you get down to the basics, it's all about creating your own society which you love to be in. It's about being in a community. That is a Minecraft Server. <br><br>
-				
-					Thanks for reading!
-				</p>
-            </div>
+                <h3>Whitelisting.</h3>
+                <h4>25/25 Slots Available</h4>
+	            	<p>This server utilizes whitelisting to maintain a safe and active community. You can easily apply by following the steps on the page, as well as join the Discord server to track progress. If there are no slots available, please consider donating so more players can access the server.</p>
+					<form action="https://api.staticforms.xyz/submit" method="post" onSubmit="if(!confirm('Are you ready to submit?')){return false;}">
+					<p>Contact:</p>
+					<input type="text" name="$MCUsername" placeholder="Minecraft Username">
+					<input type="text" name="$DCUsername" placeholder="Discord ID" />
+					<input type="text" name="$Email" placeholder="Email (If Needed)" />
+					<p>In a few sentences, explain why you'd like to join:</p>
+					<textarea name="message"> </textarea>
+					<input type="text" name="honeypot" style="display:none">
+					<input type="hidden" name="accessKey" value="da22f52a-181f-47fe-b140-02d04b3eb281">
+					<input type="hidden" name="subject" value="New Whitelist Request" />
+					<input type="hidden" name="replyTo" value="@">
+					<input type="hidden" name="redirectTo" value="https://dusk.pro/info.html">
+					<input type="submit" value="Submit" />
+					</form>
+        </div>
         </main>
 		</div>
 	</div>
