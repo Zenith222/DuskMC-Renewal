@@ -27,35 +27,37 @@
 
 </head>
 
-<style>
-		p {
-	font-size: 1.3em;
-	}
+<body>
+	<div class="container">
+		<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
+		<div id="navigation_bar">
+			<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
+		</div>
+		<div id="content_center">
+			<img style = "pointer-events: none" src="assets/Logo.svg" width="444" height="102"/>
+			<main class="dusk-page-body">
+				<div class="dusk-page-content">
+					<h1>Welcome to DuskMC</h1>
+					<p>You've stumbled upon a friendly survival Minecraft server. Here you can build, explore, make friends, and work together. What will you create?</p>
+					<br>
+					<p><a href="/info.html">Get whitelisted.</a></p>
+					<img onclick="copyServer();" style= "margin-top: 10px;cursor:pointer;"src="assets/JoinButton.svg" width="306" height="60"/>
+				</div>
+			</main>
+		</div>
+	</div>
+</body>
 
-		#FrontTab--inject-1 {
-	transform: translate(0px, 0px)
-	}
+<style>
+
+	p {
+font-size: 1.3em;
+}
+
+	#FrontTab--inject-1 {
+transform: translate(0px, 0px)
+}
 
 </style>
 
-<body>
-<div class="container">
-<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
-<div id="navigation_bar">
-<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
-</div>
-<div id="content_center">
-<img style = "pointer-events: none" src="assets/Logo.svg" width="444" height="102"/>
-<main class="dusk-page-body">
-<div class="dusk-page-content">
-<h1>Welcome to DuskMC</h1>
-<p>You've stumbled upon a friendly survival Minecraft server. Here you can build, explore, make friends, and work together. What will you create?</p>
-<br>
-<p><a href="/info.html">Get whitelisted.</a></p>
-<img onclick="copyServer();" style= "margin-top: 10px;cursor:pointer;"src="assets/JoinButton.svg" width="306" height="60"/>
-</div>
-</main>
-</div>
-</div>
-</body>
 </html>

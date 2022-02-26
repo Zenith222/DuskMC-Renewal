@@ -6,72 +6,25 @@
 
 	<title>DuskMC Info</title>
 
+	<link rel="stylesheet" href="mc_style.css">
+
 	<script src="assets/svg-inject.min.js"></script>
   
 </head>
 
-<style>
-
-.container {
-	display: flex;
-	justify-content: center;
-}
-
-#content {
-	position: absolute;
-	top: 120px;
-	width: 450px;
-	height: 500px;
-	padding: 10px;
-	justify-content: center;
-	text-align: left;
-	font-family: Minecraft;
-	overflow: auto;
-<!-- 	border: 2px solid purple; -->
-}
-
-input{
-  padding:5px;
-  font-size:16px;
-  font-family:Minecraft;   
-}
-
-#links {
-	position: absolute;
-}
-
-@font-face {
-	font-family: 'Minecraft';
-	src: url('assets/Minecraft.woff2') format('woff2'), url('assets/Minecraft.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-body {
-  background-image: url("assets/deepslate_bricks.png");
-  background-repeat: repeat;
-}
-
-#FrontTab--inject-1 {
-  transform: translate(28px, 0px)
-}
-
-</style>
-
 <body>
 	<div class="container">
 		<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
-		<div id="links">
-		<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
+		<div id="navigation_bar">
+			<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
 		</div>
-		<div id="content">
+		<div id="content_left">
 			<main class="dusk-page-body">
-            <div class="dusk-page-content">
-                <h1>Info</h1>
-                <h3>Whitelisting.</h3>
-                <h4>25/25 Slots Available</h4>
-	            	<p>This server utilizes whitelisting to maintain a safe and active community. You can easily apply by following the steps on the page, as well as join the Discord server to track progress. If there are no slots available, please consider donating so more players can access the server.</p>
+				<div class="dusk-page-content">
+					<h1>Info</h1>
+					<h3>Whitelisting.</h3>
+					<h4>25/25 Slots Available</h4>
+					<p>This server utilizes whitelisting to maintain a safe and active community. You can easily apply by following the steps on the page, as well as join the Discord server to track progress. If there are no slots available, please consider donating so more players can access the server.</p>
 					<form action="https://api.staticforms.xyz/submit" method="post" onSubmit="if(!confirm('Are you ready to submit?')){return false;}">
 					<p>Contact:</p>
 					<input type="text" name="$MCUsername" placeholder="Minecraft Username">
@@ -86,9 +39,18 @@ body {
 					<input type="hidden" name="redirectTo" value="https://dusk.pro/info.html">
 					<input type="submit" value="Submit" />
 					</form>
-        </div>
-        </main>
+				</div>
+			</main>
 		</div>
 	</div>
 </body>
+
+<style>
+
+	#FrontTab--inject-1 {
+	  transform: translate(28px, 0px)
+	}
+	
+</style>
+
 </html>
