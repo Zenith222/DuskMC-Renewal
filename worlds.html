@@ -5,47 +5,12 @@
 <head>
 
 	<title>DuskMC Worlds</title>
+	<link rel="stylesheet" href="mc_style.css">
 	<script src="assets/svg-inject.min.js"></script>
   
 </head>
 
 <style>
-
-.container {
-	display: flex;
-	justify-content: center;
-}
-
-#content {
-	position: absolute;
-	top: 120px;
-	width: 450px;
-	height: 500px;
-	padding: 10px;
-	justify-content: center;
-	text-align: left;
-	text-indent: 10px;
-	font-family: Minecraft;
-	overflow: auto;
-<!-- 	border: 2px solid purple; -->
-}
-
-#links {
-	position: absolute;
-}
-
-@font-face {
-	font-family: 'Minecraft';
-	src: url('assets/Minecraft.woff2') format('woff2'), url('assets/Minecraft.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-body {
-  background-image: url("assets/deepslate_bricks.png");
-  background-repeat: repeat;
-}
 
 #FrontTab--inject-1 {
   transform: translate(56px, 0px)
@@ -54,23 +19,23 @@ body {
 </style>
 
 <body>
-	<div class="container">
-		<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
-		<div id="links">
-		<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
-		</div>
-		<div id="content">
-			<main class="dusk-page-body">
-            <div class="dusk-page-content">
-                <h1>Worlds</h1>
-                <h3>Occasional world & seed resets.</h2>
-				<UL>
-					<li>DuskMC Renewal will be starting fresh with a completely new world in 1.18!</li>
-					
-				</UL>
-            </div>
-        </main>
-		</div>
-	</div>
+<div class="container">
+<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
+<div id="navigation_bar">
+<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
+</div>
+<div id="content_left">
+<main class="dusk-page-body">
+<div class="dusk-page-content">
+<h1>Worlds</h1>
+<h3>Occasional world & seed resets.</h2>
+<UL>
+<li>DuskMC Renewal will be starting fresh with a completely new world in 1.18!</li>
+
+</UL>
+</div>
+</main>
+</div>
+</div>
 </body>
 </html>

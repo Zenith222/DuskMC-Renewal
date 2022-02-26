@@ -10,6 +10,8 @@
 	<meta content="#9C08EC" data-react-helmet="true" name="theme-color" />
 	<meta name="twitter:card" content="summary_large_image">
 
+	<link rel="stylesheet" href="mc_style.css">
+
 	<script src="assets/svg-inject.min.js"></script>
 	
 	<script>
@@ -22,71 +24,38 @@
 	}
 	
 	</script> 
+
 </head>
 
 <style>
+		p {
+	font-size: 1.3em;
+	}
 
-.container {
-	display: flex;
-	justify-content: center;
-}
-
-#content {
-	position: absolute;
-	top: 120px;
-	text-align: center;
-	justify-content: center;
-	width: 450px;
-	height: 400px;
-	font-family: Minecraft;
-	padding: 10px;
-}
-
-p {
-  font-size: 1.3em;
-}
-
-#links {
-	position: absolute;
-}
-
-@font-face {
-	font-family: 'Minecraft';
-	src: url('assets/Minecraft.woff2') format('woff2'), url('assets/Minecraft.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-body {
-  background-image: url("assets/deepslate_bricks.png");
-  background-repeat: repeat;
-}
-
-#FrontTab--inject-1 {
-  transform: translate(0px, 0px)
-}
+		#FrontTab--inject-1 {
+	transform: translate(0px, 0px)
+	}
 
 </style>
 
 <body>
-	<div class="container">
-		<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
-		<div id="links">
-		<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
-		</div>
-			<div id="content">
-				<img style = "pointer-events: none" src="assets/Logo.svg" width="444" height="102"/>
-				<main class="dusk-page-body">
-	            <div class="dusk-page-content">
-	                <h1>Welcome to DuskMC</h1>
-	                <p>You've stumbled upon a friendly survival Minecraft server. Here you can build, explore, make friends, and work together. What will you create?</p>
-	                <br>
-	                <p><a href="/info.html">Get whitelisted.</a></p>
-					<img onclick="copyServer();" style= "margin-top: 10px;cursor:pointer;"src="assets/JoinButton.svg" width="306" height="60"/>
-	            </div>
-		        </main>
-			</div>
-	</div>
+<div class="container">
+<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
+<div id="navigation_bar">
+<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
+</div>
+<div id="content_center">
+<img style = "pointer-events: none" src="assets/Logo.svg" width="444" height="102"/>
+<main class="dusk-page-body">
+<div class="dusk-page-content">
+<h1>Welcome to DuskMC</h1>
+<p>You've stumbled upon a friendly survival Minecraft server. Here you can build, explore, make friends, and work together. What will you create?</p>
+<br>
+<p><a href="/info.html">Get whitelisted.</a></p>
+<img onclick="copyServer();" style= "margin-top: 10px;cursor:pointer;"src="assets/JoinButton.svg" width="306" height="60"/>
+</div>
+</main>
+</div>
+</div>
 </body>
 </html>
