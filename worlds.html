@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-
-	<title>DuskMC Worlds</title>
-	<link rel="stylesheet" href="mc_style.css">
-	<script src="assets/svg-inject.min.js"></script>
-  
-</head>
-
-<body>
-	<div class="container">
-	<img src="assets/UIMain.svg" width="528" height="666" onload="SVGInject(this)" />
-		<div id="navigation_bar">
-			<img src="assets/ButtonTargets.svg" width="528" height="84" onload="SVGInject(this)" />
-		</div>
-			<div id="content_left">
-			<main class="dusk-page-body">
-				<div class="dusk-page-content">
-					<h1>Worlds</h1>
+    <head>
+        <title>DuskMC Home</title>
+        <meta content="DuskMC - Member Based Vanilla Survival Server" property="og:title"/>
+        <meta content="https://dusk.pro" property="og:url" />
+        <meta content="#9C08EC" data-react-helmet="true" name="theme-color" />
+        <link rel="stylesheet" href="/css/mc_style.css">
+        <script>
+            function copyServer() {navigator.clipboard.writeText("mc.dusk.pro"); alert("Server IP Copied to Clipboard.\n\nThis server requires a membership to maintain a trusting and close-knit community. If you haven't applied, follow the link on this page.");}
+        </script>
+    </head>
+    <body>
+        <div class="user-interface">
+            <img src="/assets/UI-Symbols.svg#tab-3" width="528" />
+            <nav id="navigation_bar">
+                <a href="index.html"><img src="/assets/HomeImg.webp" width="84" height="84" style=" position:absolute; left: -264px; border:none;"/></a> 
+                <a href="info.html"><img src="/assets/InfoImg.webp" width="84" height="84" style=" position:absolute; left: -180px; border:none;"/></a> 
+                <a href="worlds.html"><img src="/assets/WorldsImg.webp" width="84" height="84" style=" position:absolute; left: -96px; border:none;"/></a> 
+                <a href="news.html"><img src="/assets/NewsImg.webp" width="84" height="84" style=" position:absolute; left: -12px; border:none;"/></a> 
+                <a href="https://www.w3schools.com/"><img src="/assets/DonateImg.webp" width="84" height="84" style=" position:absolute; left: 180px; border:none;"/></a> 
+            </nav>
+            <div id="container_left">
+                <main class="content">
+                    <h1>Worlds</h1>
 					<h3>Occasional world & seed resets.</h2>
 					<UL>
 						<li>The goal of this server is to have occasional world resets to keep the gameplay exciting. When an old world is put in the vault, it will appear here.</li>
 						<br>
 						<li>DuskMC will be starting fresh with a completely new world in 1.18!</li>
 					</UL>
-				</div>
-			</main>
-		</div>
-	</div>
-</body>
-
-<style>
-
-	#FrontTab--inject-1 {
-	  transform: translate(56px, 0px)
-	}
-	
-</style>
-
+                </main>
+            </div>
+        </div>
+    </body>
 </html>

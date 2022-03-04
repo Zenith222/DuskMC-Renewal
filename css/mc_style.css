@@ -1,10 +1,14 @@
-.container {
+.user-interface {
 	display: flex;
 	justify-content: center;
 	min-width: 528px; 
 }
 
-#content_center {
+#navigation_bar {
+	position: absolute;
+}
+
+#container {
 	position: absolute;
 	top: 120px;
 	width: 450px;
@@ -15,24 +19,28 @@
 	font-family: Minecraft;
 }
 
-#content_left {
+#container_left {
 	position: absolute;
 	top: 120px;
 	width: 450px;
 	height: 500px;
 	padding: 10px;
-	justify-content: center;
 	text-align: left;
+	justify-content: center;
 	font-family: Minecraft;
-	overflow: auto;
+	overflow:auto;
 }
 
-#navigation_bar {
-	position: absolute;
+@font-face {
+	font-family: 'Minecraft';
+	src: url('/assets/Minecraft.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 body {
-  background-image: url("assets/deepslate_bricks.png");
+  background-image: url("/assets/deepslate_bricks.webp");
   background-repeat: repeat;
 }
 
@@ -42,11 +50,7 @@ input {
 	font-family:Minecraft;   
   }
 
-@font-face {
-	font-family: 'Minecraft';
-	src: url('assets/Minecraft.woff2') format('woff2'), url('assets/Minecraft.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+img {
+	image-rendering: pixelated;
 }
 
