@@ -1,119 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="176" height="221" viewBox="0 0 176 221" id="tab-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
-  <title>Tab 1</title>
+<svg viewBox="0 0 176 221" width="176px" height="221px" id="tab-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
   <defs>
-    <symbol id="back-tab" viewBox="0 0 28 31" bx:pinned="true">
-      <g id="Back-Tab-1" transform="matrix(1, 0, 0, 1, 0, 0)">
-        <g id="Background">
-          <path id="Rectangle" fill="#8b8b8b" fill-rule="evenodd" stroke="none" d="M 1 31 L 26 31 L 26 1 L 1 1 Z"/>
-          <path id="path1" fill="#8b8b8b" fill-rule="evenodd" stroke="none" d="M 26 30 L 27 30 L 27 3 L 26 3 Z"/>
+    <linearGradient id="bg-light" bx:pinned="true">
+      <stop style="stop-color: rgb(198, 198, 198);"/>
+    </linearGradient>
+    <linearGradient id="bg-dark" bx:pinned="true">
+      <stop style="stop-color: rgb(139, 139, 139);"/>
+    </linearGradient>
+    <linearGradient id="bg-shadow" bx:pinned="true">
+      <stop style="stop-color: rgb(85, 85, 85);"/>
+    </linearGradient>
+    <linearGradient id="ui-mix" bx:pinned="true">
+      <stop style="stop-color: rgb(139, 139, 139);"/>
+    </linearGradient>
+    <symbol id="ui-cut" viewBox="0 0 176 193" bx:pinned="true">
+      <g transform="matrix(1, 0, 0, 1, 0, -28)">
+        <rect x="3" y="31" width="170" height="187" style="fill: url(#bg-light);"/>
+        <g>
+          <rect x="1" y="30" width="2" height="188" style="fill: White;"/>
+          <rect x="1" y="29" width="173" height="2" style="fill: White;"/>
         </g>
-        <g id="Border">
-          <path id="path2" fill="#000000" fill-rule="evenodd" stroke="none" d="M 0 31 L 1 31 L 1 2 L 0 2 Z"/>
-          <path id="path3" fill="#000000" fill-rule="evenodd" stroke="none" d="M 27 29 L 28 29 L 28 3 L 27 3 Z"/>
-          <path id="path4" fill="#000000" fill-rule="evenodd" stroke="none" d="M 1 2 L 2 2 L 2 1 L 1 1 Z"/>
-          <path id="path5" fill="#000000" fill-rule="evenodd" stroke="none" d="M 2 1 L 25 1 L 25 0 L 2 0 Z"/>
-          <path id="path6" fill="#000000" fill-rule="evenodd" stroke="none" d="M 25 2 L 26 2 L 26 1 L 25 1 Z"/>
-          <path id="path7" fill="#000000" fill-rule="evenodd" stroke="none" d="M 26 3 L 27 3 L 27 2 L 26 2 Z"/>
+        <g>
+          <rect x="2" y="218" width="173" height="2" style="fill: url(#bg-shadow);"/>
+          <rect x="173" y="31" width="2" height="187" style="fill: url(#bg-shadow);"/>
+          <rect x="172" y="217" width="1" height="1" style="fill: url(#bg-shadow);"/>
         </g>
-        <g id="Highlight">
-          <path id="path8" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 1 31 L 3 31 L 3 3 L 1 3 Z"/>
-          <path id="path9" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 2 3 L 25 3 L 25 1 L 2 1 Z"/>
-          <path id="path10" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 3 4 L 4 4 L 4 3 L 3 3 Z"/>
-          <path id="path11" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 1 3 L 2 3 L 2 2 L 1 2 Z"/>
-        </g>
-        <g id="Shadow">
-          <path id="path12" fill="#555555" fill-rule="evenodd" stroke="none" d="M 25 30 L 27 30 L 27 3 L 25 3 Z"/>
-          <path id="path13" fill="#555555" fill-rule="evenodd" stroke="none" d="M 25 31 L 26 31 L 26 30 L 25 30 Z"/>
+        <g>
+          <rect x="2" y="28" width="171" height="1"/>
+          <rect x="173" y="29" width="1" height="1"/>
+          <rect x="174" y="30" width="1" height="1"/>
+          <rect x="175" y="29" width="1" height="190"/>
+          <rect x="174" y="219" width="1" height="1"/>
+          <rect x="3" y="220" width="171" height="1"/>
+          <rect x="1" y="218" width="1" height="1"/>
+          <rect x="2" y="219" width="1" height="1"/>
+          <rect y="29" width="1" height="189"/>
+          <rect x="1" y="29" width="1" height="1"/>
+          <rect x="173" y="30" width="1" height="1" style="fill: url(#ui-mix);"/>
         </g>
       </g>
     </symbol>
-    <symbol id="back-ui" viewBox="0 0 176 193" bx:pinned="true">
-      <g id="Element-Cut" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, -28)">
-        <g id="g17">
-          <path id="path70" fill="#c6c6c6" fill-rule="evenodd" stroke="none" d="M 2 220 L 174 220 L 174 30 L 2 30 Z"/>
-          <path id="path71" fill="#c6c6c6" fill-rule="evenodd" stroke="none" d="M 175 217 L 173 217 L 173 31 L 175 31 Z"/>
+    <symbol id="ui-tab-back" viewBox="0 0 28 31" bx:pinned="true">
+      <g transform="matrix(1, 0, 0, 1, -42, 0)">
+        <rect x="45" y="3" width="22" height="28" style="fill: url(#bg-dark);" id="b-background"/>
+        <g>
+          <rect x="43" y="1" width="24" height="2" style="fill:White;"/>
+          <rect x="43" y="3" width="2" height="28" style="fill:White;"/>
+          <rect x="45" y="3" width="1" height="1" style="fill:White;"/>
+          <rect x="67" y="2" width="1" height="1" style="fill: url(#ui-mix);"/>
         </g>
-        <g id="g18">
-          <path id="path72" fill="#000000" fill-rule="evenodd" stroke="none" d="M 2 29 L 173 29 L 173 28 L 2 28 Z"/>
-          <path id="Path" fill="#000000" fill-rule="evenodd" stroke="none" d="M 0 218 L 1 218 L 1 29 L 0 29 Z"/>
-          <path id="path73" fill="#000000" fill-rule="evenodd" stroke="none" d="M 3 221 L 174 221 L 174 220 L 3 220 Z"/>
-          <path id="path74" fill="#000000" fill-rule="evenodd" stroke="none" d="M 175 219 L 176 219 L 176 29 L 175 29 Z"/>
-          <path id="path75" fill="#000000" fill-rule="evenodd" stroke="none" d="M 174 220 L 175 220 L 175 219 L 174 219 Z"/>
-          <path id="path76" fill="#000000" fill-rule="evenodd" stroke="none" d="M 173 30 L 174 30 L 174 29 L 173 29 Z"/>
-          <path id="path77" fill="#000000" fill-rule="evenodd" stroke="none" d="M 174 31 L 175 31 L 175 30 L 174 30 Z"/>
-          <path id="path78" fill="#000000" fill-rule="evenodd" stroke="none" d="M 1 30 L 2 30 L 2 29 L 1 29 Z"/>
-          <path id="path79" fill="#000000" fill-rule="evenodd" stroke="none" d="M 1 219 L 2 219 L 2 218 L 1 218 Z"/>
-          <path id="path80" fill="#000000" fill-rule="evenodd" stroke="none" d="M 2 220 L 3 220 L 3 219 L 2 219 Z"/>
+        <g>
+          <rect x="67" y="3" width="2" height="27" style="fill: url(#bg-shadow);"/>
+          <rect x="67" y="30" width="1" height="1" style="fill: url(#bg-shadow);"/>
         </g>
-        <g id="g19">
-          <path id="path81" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 1 218 L 3 218 L 3 30 L 1 30 Z"/>
-          <path id="path82" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 2 31 L 173 31 L 173 29 L 2 29 Z"/>
-          <path id="path83" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 2 33 L 3 33 L 3 32 L 2 32 Z"/>
+        <g>
+          <rect x="42" y="2" width="1" height="29"/>
+          <rect x="43" y="1" width="1" height="1"/>
+          <rect x="44" width="23" height="1"/>
+          <rect x="67" y="1" width="1" height="1"/>
+          <rect x="68" y="2" width="1" height="1"/>
+          <rect x="69" y="3" width="1" height="26"/>
         </g>
-        <g id="g20">
-          <path id="path84" fill="#555555" fill-rule="evenodd" stroke="none" d="M 173 219 L 175 219 L 175 31 L 173 31 Z"/>
-          <path id="path85" fill="#555555" fill-rule="evenodd" stroke="none" d="M 3 220 L 174 220 L 174 218 L 3 218 Z"/>
-          <path id="path86" fill="#555555" fill-rule="evenodd" stroke="none" d="M 172 218 L 173 218 L 173 217 L 172 217 Z"/>
-          <path id="path87" fill="#555555" fill-rule="evenodd" stroke="none" d="M 2 219 L 3 219 L 3 218 L 2 218 Z"/>
+      </g>
+    </symbol>
+    <symbol id="ui-tab-front" viewBox="0 0 28 31" bx:pinned="true">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)">
+        <rect x="3" y="3" width="22" height="28" style="fill: url(#bg-light);" id="t-bg"/>
+        <g>
+          <rect x="2" y="1" width="23" height="2" style="fill:White;"/>
+          <rect x="1" y="2" width="2" height="29" style="fill:White;"/>
+          <rect x="3" y="3" width="1" height="1" style="fill:White;"/>
+          <rect x="25" y="2" width="1" height="1" style="fill: url(#ui-mix);"/>
         </g>
+        <g>
+          <rect x="25" y="3" width="2" height="27" style="fill: url(#bg-shadow);"/>
+          <rect x="25" y="30" width="1" height="1" style="fill: url(#bg-shadow);"/>
+        </g>
+        <g>
+          <rect x="27" y="3" width="1" height="26" style=""/>
+          <rect y="2" width="1" height="27" style=""/>
+          <rect x="1" y="1" width="1" height="1" style=""/>
+          <rect x="2" width="23" height="1" style=""/>
+          <rect x="25" y="1" width="1" height="1" style=""/>
+          <rect x="26" y="2" width="1" height="1" style=""/>
+        </g>
+      </g>
+    </symbol>
+    <view id="tab-2" viewBox="186 0 176 221"/>
+    <view id="tab-3" viewBox="372 0 176 221"/>
+    <view id="tab-4" viewBox="558 0 176 221"/>
+    <symbol id="ui-main" viewBox="0 0 176 221" bx:pinned="true">
+      <g id="ui-1" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <use width="28" height="31" transform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#ui-tab-back"/>
+        <use width="28" height="31" transform="matrix(1, 0, 0, 1, 28, 0)" xlink:href="#ui-tab-back"/>
+        <use width="28" height="31" transform="matrix(1, 0, 0, 1, 56, 0)" xlink:href="#ui-tab-back"/>
+        <use width="28" height="31" transform="matrix(1, 0, 0, 1, 84, 0)" xlink:href="#ui-tab-back"/>
+        <use width="28" height="31" transform="matrix(1, 0, 0, 1, 148, 0)" xlink:href="#ui-tab-back"/>
+        <use width="176" height="193" transform="matrix(1, 0, 0, 1, 0, 28)" xlink:href="#ui-cut"/>
       </g>
     </symbol>
     <bx:grid x="0" y="0" width="1" height="1"/>
-    <view id="tab-2" viewBox="196 0 176 221">
-      <title>Tab 2</title>
-    </view>
-    <view id="tab-3" viewBox="392 0 176 221">
-      <title>Tab 3</title>
-    </view>
-    <view id="tab-4" viewBox="588 0 176 221">
-      <title>Tab 4</title>
-    </view>
-    <symbol id="ui-main" viewBox="0 0 176 221">
-      <g id="g-1" transform="matrix(1, 0, 0, 1, 0, 0)">
-        <g id="g-2">
-          <use width="28" height="31" transform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#back-tab"/>
-          <use width="28" height="31" transform="matrix(1, 0, 0, 1, 28, 0)" xlink:href="#back-tab"/>
-          <use width="28" height="31" transform="matrix(1, 0, 0, 1, 56, 0)" xlink:href="#back-tab"/>
-          <use width="28" height="31" transform="matrix(1, 0, 0, 1, 84, 0)" xlink:href="#back-tab"/>
-          <use width="28" height="31" transform="matrix(1, 0, 0, 1, 148, 0)" xlink:href="#back-tab"/>
-          <use width="176" height="193" transform="matrix(1, 0, 0, 1, 0, 28)" xlink:href="#back-ui"/>
-        </g>
-      </g>
-    </symbol>
-    <symbol id="front-tab" viewBox="0 0 28 31" bx:pinned="true">
-      <g id="g-3" transform="matrix(1, 0, 0, 1, 0, 0)">
-        <g id="g-4">
-          <path id="path-1" fill="#c6c6c6" fill-rule="evenodd" stroke="none" d="M 1 31 L 26 31 L 26 1 L 1 1 Z"/>
-          <path id="path-2" fill="#c6c6c6" fill-rule="evenodd" stroke="none" d="M 26 30 L 27 30 L 27 3 L 26 3 Z"/>
-        </g>
-        <g id="g-5">
-          <path id="path-3" fill="#000000" fill-rule="evenodd" stroke="none" d="M 0 29 L 1 29 L 1 2 L 0 2 Z"/>
-          <path id="path-4" fill="#000000" fill-rule="evenodd" stroke="none" d="M 27 29 L 28 29 L 28 3 L 27 3 Z"/>
-          <path id="path-5" fill="#000000" fill-rule="evenodd" stroke="none" d="M 1 2 L 2 2 L 2 1 L 1 1 Z"/>
-          <path id="path-6" fill="#000000" fill-rule="evenodd" stroke="none" d="M 2 1 L 25 1 L 25 0 L 2 0 Z"/>
-          <path id="path-7" fill="#000000" fill-rule="evenodd" stroke="none" d="M 25 2 L 26 2 L 26 1 L 25 1 Z"/>
-          <path id="path-8" fill="#000000" fill-rule="evenodd" stroke="none" d="M 26 3 L 27 3 L 27 2 L 26 2 Z"/>
-        </g>
-        <g id="g-6">
-          <path id="path-9" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 1 31 L 3 31 L 3 3 L 1 3 Z"/>
-          <path id="path-10" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 2 3 L 25 3 L 25 1 L 2 1 Z"/>
-          <path id="path-11" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 3 4 L 4 4 L 4 3 L 3 3 Z"/>
-          <path id="path-12" fill="#ffffff" fill-rule="evenodd" stroke="none" d="M 1 3 L 2 3 L 2 2 L 1 2 Z"/>
-        </g>
-        <g id="g-7">
-          <path id="path-13" fill="#555555" fill-rule="evenodd" stroke="none" d="M 25 30 L 27 30 L 27 3 L 25 3 Z"/>
-          <path id="path-14" fill="#555555" fill-rule="evenodd" stroke="none" d="M 25 31 L 26 31 L 26 30 L 25 30 Z"/>
-        </g>
-      </g>
-    </symbol>
   </defs>
   <use width="176" height="221" xlink:href="#ui-main"/>
-  <use width="176" height="221" transform="matrix(1, 0, 0, 1, 196, 0)" xlink:href="#ui-main"/>
-  <use width="176" height="221" transform="matrix(1, 0, 0, 1, 392, 0)" xlink:href="#ui-main"/>
-  <use width="176" height="221" transform="matrix(1, 0, 0, 1, 588, 0)" xlink:href="#ui-main"/>
-  <use width="28" height="31" xlink:href="#front-tab"/>
-  <use width="28" height="31" transform="matrix(1, 0, 0, 1, 224, 0)" xlink:href="#front-tab"/>
-  <use width="28" height="31" transform="matrix(1, 0, 0, 1, 448, 0)" xlink:href="#front-tab"/>
-  <use width="28" height="31" transform="matrix(1, 0, 0, 1, 672, 0)" xlink:href="#front-tab"/>
+  <use width="176" height="221" transform="matrix(1, 0, 0, 1, 186, 0)" xlink:href="#ui-main"/>
+  <use width="176" height="221" transform="matrix(1, 0, 0, 1, 372, 0)" xlink:href="#ui-main"/>
+  <use width="176" height="221" transform="matrix(1, 0, 0, 1, 558, 0)" xlink:href="#ui-main"/>
+  <use width="28" height="31" xlink:href="#ui-tab-front"/>
+  <use width="28" height="31" transform="matrix(1, 0, 0, 1, 214, 0)" xlink:href="#ui-tab-front"/>
+  <use width="28" height="31" transform="matrix(1, 0, 0, 1, 428, 0)" xlink:href="#ui-tab-front"/>
+  <use width="28" height="31" transform="matrix(1, 0, 0, 1, 642, 0)" xlink:href="#ui-tab-front"/>
 </svg>
