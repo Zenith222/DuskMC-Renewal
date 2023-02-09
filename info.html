@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>DuskMC Info</title>
-        <meta content="DuskMC - Member Based Vanilla Survival Server" property="og:title"/>
-        <meta content="https://dusk.pro" property="og:url" />
-        <meta content="#8c1aca" data-react-helmet="true" name="theme-color" />
-        <link rel="stylesheet" href="/css/mc_style.css">
-    </head>
-    <body>
-        <div class="user-interface">
-            <img src="/assets/UI-Symbols.svg#tab-2" width="528" />
-            <nav id="navigation_bar">
-                <a href="index.html"><img src="/assets/HomeImg.webp" width="84" height="84" title="Home" style=" position:absolute; left: -264px;"/></a> 
-                <a href="info.html"><img src="/assets/InfoImg.webp" width="84" height="84" title="Info" style=" position:absolute; left: -180px;"/></a> 
-                <a href="worlds.html"><img src="/assets/WorldsImg.webp" width="84" height="84" title="Worlds" style=" position:absolute; left: -96px;"/></a> 
-                <a href="news.html"><img src="/assets/NewsImg.webp" width="84" height="84" title="News" style=" position:absolute; left: -12px;"/></a> 
-                <a href="https://ko-fi.com/duskmc"><img src="/assets/DonateImg.webp" width="84" height="84" title="Donate" style=" position:absolute; left: 180px; border:none;"/></a> 
-            </nav>
-            <div id="container_left">
-                <main class="content">
-                    <h1>Info</h1>
-					<h3>Membership.</h3>
-					<h4>Limited Slots Available</h4>
-					<p>This server requires a membership to maintain a trusting and close-knit community. You can easily apply by following the steps on the page, as well as join the <a href="https://discord.gg/8vynCHJcKk" target="_blank">Discord</a> server to track progress. If there are no slots available, please consider donating so more players can access the server. Please note a submission does not guarantee placement.</p>
-					<form action="https://api.staticforms.xyz/submit" method="post" onSubmit="if(!confirm('Are you ready to submit?'))">
-					<p>Contact:</p>
-					<input type="text" name="$MCUsername" placeholder="Minecraft Username">
-					<input type="text" name="$DCUsername" placeholder="Discord ID" />
-					<input type="text" name="$Email" placeholder="Email (If Needed)" />
-					<p>In detail, explain why you'd like to become a member:</p>
-					<textarea name="message"> </textarea>
-					<input type="text" name="honeypot" style="display:none">
-					<input type="hidden" name="accessKey" value="da22f52a-181f-47fe-b140-02d04b3eb281">
-					<input type="hidden" name="subject" value="New Membership Request" />
-					<input type="hidden" name="replyTo" value="@">
-					<input type="hidden" name="redirectTo" value="https://dusk.pro/info.html">
-					<input type="submit" value="Submit" />
-					</form>
-                </main>
-            </div>
+
+<head>
+    <title>DuskMC Info</title>
+    <meta content="DuskMC - Member Based Vanilla Survival Server" property="og:title" />
+    <meta content="https://dusk.pro" property="og:url" />
+    <meta content="#8c1aca" data-react-helmet="true" name="theme-color" />
+    <link rel="stylesheet" href="/css/mc_style.css">
+</head>
+
+<body>
+    <div class="user-interface">
+        <img src="/assets/UI-Symbols.svg#tab-2" width="528" />
+        <nav id="navigation_bar">
+            <a href="index.html"><img src="/assets/HomeImg.webp" width="84" height="84" title="Home" style=" position:absolute; left: -264px;" /></a>
+            <a href="info.html"><img src="/assets/InfoImg.webp" width="84" height="84" title="Info" style=" position:absolute; left: -180px;" /></a>
+            <a href="worlds.html"><img src="/assets/WorldsImg.webp" width="84" height="84" title="Worlds" style=" position:absolute; left: -96px;" /></a>
+            <a href="news.html"><img src="/assets/NewsImg.webp" width="84" height="84" title="News" style=" position:absolute; left: -12px;" /></a>
+            <a href="https://ko-fi.com/duskmc"><img src="/assets/DonateImg.webp" width="84" height="84" title="Donate" style=" position:absolute; left: 180px; border:none;" /></a>
+        </nav>
+        <div id="container_left">
+            <main class="content">
+                <h1>Info</h1>
+                <h3>Membership.</h3>
+                <h4>Limited Slots Available</h4>
+                <p>This server requires a membership to maintain a trusting and close-knit community. You can easily apply by following the steps on the page, as well as join the <a href="https://discord.gg/8vynCHJcKk" target="_blank">Discord</a> server to track progress. If there are no slots available, please consider donating so more players can access the server. Please note a submission does not guarantee placement.</p>
+                <form action="https://api.staticforms.xyz/submit" method="post" onSubmit="if(!confirm('Are you ready to submit?'))">
+                    <p>Contact:</p>
+                    <input type="text" name="$MCUsername" placeholder="Minecraft Username">
+                    <input type="text" name="$DCUsername" placeholder="Discord ID" />
+                    <input type="text" name="$Email" placeholder="Email (If Needed)" />
+                    <p>In detail, explain why you'd like to become a member:</p>
+                    <textarea name="message"> </textarea>
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="da22f52a-181f-47fe-b140-02d04b3eb281">
+                    <input type="hidden" name="subject" value="New Membership Request" />
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="redirectTo" value="https://dusk.pro/info.html">
+                    <input type="submit" value="Submit" />
+                </form>
+            </main>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
